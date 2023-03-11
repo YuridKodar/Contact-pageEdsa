@@ -1,0 +1,60 @@
+
+@media only screen and (min-width: 0px) and (max-width: 780px) {
+    /* For desktop: */
+    .change-colour-1 {
+        background-color: yellow;
+    }
+}
+
+.change-colour-2 {
+    background-color: blue;
+}
+
+/*Create the CSS Properties for the vertical layout elements first*/
+
+/*Sum of height values for header, nav, main, and footer tags equals 100%*/
+
+body {
+    height: 100vh;
+    color: white;
+}
+
+header {
+    height: 10%;
+    background-color: green;
+}
+
+nav {
+    height:10%;
+    background-color: green;   
+}
+
+main {
+    height: 70%;
+    background-color: greenyellow;
+}
+
+footer {
+    height: 10%;
+    background-color: green;
+}
+
+/*Stop here*/
+
+section {
+    height:100%;
+}
+
+.float-left {
+    float: left;
+    background-color: lightblue;
+    width: 50%;
+}
+
+.float-right {
+    float: right;
+    background: silver;
+    width: 50%;
+}
+
+
